@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ticc-web-api-service
+  cloud:
+    config:
+      enabled: true
+      retry:
+        max-attempts: 20
